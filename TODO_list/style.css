@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(62, 83, 83);
+    font-family: 'Ubuntu', sans-serif
+}
+.container{
+    width: 360px;
+    padding: 33px;
+    text-align: center;
+    background-color: rgb(114, 126, 126);
+    margin-left: 33%;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+input{
+    width: 250px;
+    /* height: 20px; */
+    border-radius: 5px;
+    padding: 6px;
+    border : 2px solid rgb(24, 71, 24);
+    outline: none;
+}
+button{
+    padding: 6px;
+    width: 50px;
+    background-color: rgb(20, 20, 19);
+    color: rgb(206, 238, 226);
+    border-radius: 10px;
+    border: 2px dotted rgb(126, 130, 126);
+    outline: none;
+}
+button:hover{
+    width: 65px;
+    height: 39px;
+    background-color: rgb(49, 25, 25);
+    cursor: pointer;
+    border: none;
+}
